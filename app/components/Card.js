@@ -28,7 +28,7 @@ const Card = ({ allData }) => {
                     name="searchInput"
                     value={searchInput}
                     onChange={handleSearchbar}
-                    className="border border-black my-4 rounded"
+                    className="border border-black my-4 rounded px-2"
                     placeholder="Search"
                 />
             </form>
@@ -43,11 +43,11 @@ const Card = ({ allData }) => {
                                 alt="Image1"
                                 className="w-full h-[150px] object-cover"
                             ></Image>
-                            <h3 className="px-1 py-2 font-semibold">{item.title.toUpperCase()}</h3>
-                            <p className="px-1 py-2">{item.body}</p>
+                            <h3 className="px-3 py-2 font-semibold">{item.title.toUpperCase()}</h3>
+                            <p className="px-3 py-2">{item.body}</p>
                             <Link
                                 href={item.id.toString()}
-                                className="bg-blue-500 text-white py-2 px-1 rounded my-2 mx-1 inline-block"
+                                className="bg-blue-500 text-white py-2 px-1 rounded my-2 mx-3 inline-block"
                             >
                                 Read More
                             </Link>

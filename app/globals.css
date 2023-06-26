@@ -11,3 +11,6 @@
 .child{
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.5);
 }
+/* ::placeholder{
+  padding-left: 2px;
+} */

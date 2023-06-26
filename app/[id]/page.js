@@ -19,7 +19,6 @@ const page = async ({ params }) => {
         return item.id == params.id;
     });
     const fullData = realData[0];
-    console.log(realData);
     return (
         <div className="px-12 py-8 text-center">
             <Image
